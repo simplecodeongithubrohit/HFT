@@ -1,0 +1,112 @@
+.today-workout-log-container {
+  max-width: auto;
+  margin: 0 100px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  grid-column: 1;
+}
+
+.today-workout-title{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.workout-log-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 0 auto;
+  padding-left: 190px;
+}
+
+.workout-container {
+  width: 440px ;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  grid-column: 1;
+  }
+  
+.workout-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.data-input {
+  width: 80% !important ;
+  padding: 8px !important ;
+  border: 1px solid #ccc !important ;
+  border-radius: 4px !important ;
+}
+
+.workout-form div {
+  margin-bottom: 10px;
+}
+.workout-label {
+  width: 200px !important ;
+  font-size: 15px !important ;
+  text-align: center !important ;
+}
+.workout-form input[type='text'],
+.workout-form input[type='email'],
+.workout-form input[type='password'],
+.workout-form input[type='number'],
+.workout-form select,
+.workout-form input[type='date'],
+.workout-form input[type='time'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.workout-form > div {
+  display: flex; 
+  align-items: center; 
+}
+.workout-form div {
+  margin-bottom: 15px;
+}
+.workout-form button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.workout-form button:hover {
+  background-color: #0056b3;
+}
+
+.workout-sub-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.workout-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.workout-th , .workout-td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  font-size: 16px; /* Increase font size */
+  line-height: 1.5; /* Increase line height */
+}
+
+.workout-th {
+  background-color: #f2f2f2;
+}
